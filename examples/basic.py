@@ -4,7 +4,6 @@ import time
 from sudasphere import Sudasphere
 
 device = Sudasphere(
-    broker="178.128.101.114",
     userid="YOUR_USERNAME",
     token="YOUR_PASSWORD",
     gateway_id="home-gateway",

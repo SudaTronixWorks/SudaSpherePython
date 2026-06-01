@@ -8,7 +8,6 @@ class Sudasphere:
 
     def __init__(
         self,
-        broker,
         userid,
         token,
         gateway_id,
@@ -19,7 +18,7 @@ class Sudasphere:
         auto_connect=True
     ):
 
-        self.broker = broker
+        self.broker ="app.sudatonix.com",
         self.port = port
 
         self.gateway_id = gateway_id
