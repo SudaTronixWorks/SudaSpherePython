@@ -37,7 +37,7 @@ class Sudasphere:
                 "or gateway_id + node_id for P2P mode."
             )
 
-        self.broker  = "app.sudatronix.com"
+        self.broker  = "device.sudatronix.com"
         self.port    = port
         self.sensors = []
 
